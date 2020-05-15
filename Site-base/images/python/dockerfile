@@ -1,0 +1,4 @@
+FROM python:alpine
+ADD script.py /
+ADD index.php /
+CMD [ "python", "./script.py" ]
